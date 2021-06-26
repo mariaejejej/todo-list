@@ -1,8 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { combineReducers } from 'redux';
+import colorsReducer from '../redux/colors/colors.reducer';
 
 export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
+  reducer: combineReducers({colorsReducer}),
 });

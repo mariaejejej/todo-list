@@ -1,0 +1,16 @@
+.list-header-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  flex-direction: column;
+
+  align-items: stretch;
+
+  padding: 10px 0;
+}
+
+.add-item {
+  width: 75% !important;
+  margin: 0 10px 0 40px;
+}
